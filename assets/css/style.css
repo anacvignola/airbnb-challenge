@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input, button {
+  outline: 0;
+}
+
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 50px 50px 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+header img {
+  max-width: 118px;
+  max-height: 64px;
+}
+
+nav a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(72, 72, 72);
+  margin: 0px 5px;
+  padding: 10px 20px;
+  border-radius: 16px;
+}
+
+nav a:hover {
+  background-color: #f4f4f4;
+}
+
+#register {
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  margin: 0px 5px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  border: 2px solid #f4f4f4;
+  transition: all .3s ease;
+}
+
+#register:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+#root {
+  padding: 5px;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  width: 100%;
+}
+
+.card {
+  width: 324px;
+  height: 343px;
+  padding: 8px !important;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  border-radius: 16px;
+  border: 2px solid #f4f4f4;
+  margin: 10px;
+  transition: all .3s ease;
+}
+
+.card img {
+  border-radius: 16px;
+  width: 100%;
+  height: 218px;
+}
+
+.card > .name {
+  overflow-wrap: break-word !important;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 1.44444em !important;
+  color: rgb(72, 72, 72) !important;
+  margin: 0px !important;
+}
+
+.card > .price {
+  overflow-wrap: break-word !important;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.28571em !important;
+  color: rgb(72, 72, 72) !important;
+  margin: 0px !important;
+}
+
+.card > .type {
+  overflow-wrap: break-word !important;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  line-height: 1.33333em !important;
+  margin: 0px !important;
+  color: rgb(118, 118, 118);
+}
+
+.header {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: rgb(72, 72, 72);
+}
+
+.card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+
+footer {
+  font-size: 14px;
+  margin: 10px;
+  color: rgb(72, 72, 72);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F05C62;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
